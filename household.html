@@ -1,0 +1,53 @@
+
+<html>
+<head>
+<script language="javascript">
+var a12;
+function a()
+{
+var a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a13,a14;
+a1=parseFloat(f1.t1.value);
+a2=parseFloat(f1.t2.value);
+a4=parseFloat(f1.t4.value);
+a5=parseFloat(f1.t5.value);
+a6=parseFloat(f1.t6.value);
+a7=a1/(a6*20);
+a8=(a2*1.665)/a6;
+a10=a4*1.5;
+a11=a5*0.6;
+a12=a7+a8+a10+a11;
+sessionStorage.setItem("xyz", a12);
+location.href="carandmotorbike.html";
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="carbon, footprint, calculator">
+<meta name="description" content="Calculate carbon footprint">
+<meta name="author" content="Devansh">
+</head>
+<body align="center" background="h.jpg">
+ <font face="Calibri" size="4">
+<font size=7><u> <p style="background-color:yellow;">Household Carbon Footprint Calculator</p></u></font>
+ <font style="color: rgb(0, 128, 0);">
+ <h1><u>Household Carbon Footprints</u></h1>
+ <p>
+ The individual carbon footoprint is calculated by dividing the amount of total energy used in the house by the number of people in the household.
+ </p>
+ </font>
+<form name="f1">
+Your recent electricity bill: <br>
+<input type="number" name="t1"><br><br>
+LPG in litres (1 LPG cylinder contains 28 litres of LPG):<br>
+<input type="number" name="t2"><br><br>
+Smartphone usage (hours per day): <br>
+<input type="number" name="t4"><br><br>
+Laptop/Computer  (hours per day): <br>
+<input type="number" name="t5"><br><br>
+No. of family members you live with: <br>
+<input type="number" name="t6" ><br><br>
+<input type="button" name="s1" value="Save and Next" onclick="a()">
+</font>
+<br><br><br>
+<a href="homepage.html"> Go Back to Homepage </a>
+</body>
+</html>

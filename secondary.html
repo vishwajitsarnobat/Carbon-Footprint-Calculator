@@ -1,0 +1,53 @@
+
+<html>
+<head>
+<script language="javascript">
+var a42;
+function c()
+{
+var a30,a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,a41;
+a30=parseFloat(f3.t13.value);
+a31=parseFloat(f3.t14.value);
+a32=parseFloat(f3.t15.value);
+a33=parseFloat(f3.t16.value);
+a34=parseFloat(f3.t17.value);
+a35=parseFloat(f3.t18.value);
+a36=a30*0.072;
+a37=a31*0.0042;
+a38=a32*0.0029;
+a39=a33*0.0119;
+a40=a34*0.0039;
+a41=a35*0.0033;
+var a51=sessionStorage.getItem("xyz");
+a42=a36+a37+a38+a39+a40+a41+a51;
+sessionStorage.setItem("xyz", a42);
+location.href="analysis.html";
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body background="r.jpg" align="center">
+<font size=7 color="black"><u><p style="background-color:yellow;"> Footprints due to expenses </p></u></font>
+<marquee bgcolor="black"><font face="Calibri" size=5 color="white"> *Enter all the values in Rupees.</font> </marquee>
+<br><br><br>
+<font face="Calibri" size="4">
+<form name="f3">
+Enter the amount spent on medication and pharmaceuticals per month(7.2 kg CO2e/100 inr):<br>
+<input type="number" name="t13"><br><br>
+Enter the amount spent on clothes and textiles per month(0.42 kg CO2e/100 inr):<br>
+<input type="number" name="t14"><br><br>
+Enter the amount spent on books, magazines etc. per month (0.29 kg CO2e/100 inr):<br>
+<input type="number" name="t15"><br><br>
+Enter the amount spent on electronic equipments per month  (1.19 kg CO2e/100 inr):<br>
+<input type="number" name="t16"><br><br>
+Enter the amount spent on Hotels, restaurants, etc. per month (0.39 kg CO2e/100 inr):<br>
+<input type="number" name="t17"><br><br>
+Enter the amount spent on Recreational activities and entertainment per month: (0.33 kg CO2e/100 inr):<br>
+<input type="number" name="t18"><br><br>
+<input type="button" name="s3" value="Submit" onclick="c()">
+</form>
+</font>
+<br><br><br>
+<a href="homepage.html"> Go Back to Homepage </a>
+</body>
+</html>

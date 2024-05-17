@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<script type="text/javascript">
+function d()
+{
+var a52=sessionStorage.getItem("xyz");
+f4.t50.value=a52;
+if(a52<=200)
+{document.body.style.backgroundColor="green";
+alert("You have good carbon footprints");
+}
+else if(a52>200 && a52<=600)
+{document.body.style.backgroundColor="yellow";
+alert("You have moderate carbon footprints");
+}
+else if(a52>200)
+{document.body.style.backgroundColor="red";
+alert("You have bad carbon footprints");
+}
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body onload="d()" align="center">
+<font face="Calibri" size=5>
+<form name="f4">
+Your carbon footprints are: <input type="textbox" name="t50"> kg/month
+</form>
+</font>
+<a href="homepage.html"> Go Back to Homepage </a>
+</body>
+</html>
