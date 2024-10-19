@@ -9,7 +9,7 @@ This is a simple website, my first ever project that I created in Class 12th usi
 
 ## How to Run
 1. Download or clone this repository.
-2. Open the `index.html` file in any web browser.
+2. Open the `homepage.html` file in any web browser.
 
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
