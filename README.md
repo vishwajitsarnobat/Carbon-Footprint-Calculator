@@ -1,5 +1,5 @@
-# This is here because it began here... 
-These are the first pieces of code I wrote when I was 17, no internet, no resources, just hit and trial.
+# This is here because it all began here... 
+These are the first pieces of code I wrote when I was 17, with no resources, just hit and trial.
 
 # My First Website
 
