@@ -1,3 +1,6 @@
+# This is here because it began here... 
+These are the first pieces of code I wrote when I was 17, no internet, no resources, just hit and trial.
+
 # My First Website
 
 This is a simple website, my first ever project that I created in Class 12th using HTML, CSS, and JavaScript. The project demonstrates my early skills in web development with a focus on basic structure, styling, and some JavaScript functionality embedded directly in the HTML file.
